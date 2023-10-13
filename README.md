@@ -8,3 +8,5 @@ The portfolio will include:
 <li>Skills and Technologies: I am going to showcase the programming languages, frameworks, and tools I am proficient in.</li>
 <li>Projects: A projects page where I can feature my best projects with a clear description, a link to the live demo, and a link to the GitHub repository.</li>
 </ul>
+
+Link to design in Figma: https://www.figma.com/file/Vah0IN6wp8fwPz3VVxibtO/Eirik-Orkelbog-Portfolio?type=design&node-id=0%3A1&mode=design&t=2KSHW5svEBEHFvTX-1
