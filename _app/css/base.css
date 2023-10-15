@@ -1,0 +1,24 @@
+body {
+	color: var(--text-color-light);
+	background-color: var(--bg-color-light);
+}
+
+/* Dark Mode */
+.dark-mode {
+	color: var(--text-color-dark);
+	background-color: var(--bg-color-dark);
+}
+
+/* Desktop Styles */
+@media (min-width: 768px) {
+	body {
+		font-size: var(--font-size-desktop);
+	}
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+	body {
+		font-size: var(--font-size-mobile);
+	}
+}
