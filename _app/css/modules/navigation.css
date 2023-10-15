@@ -1,0 +1,14 @@
+.nav {
+	padding: 1rem;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	gap: 1rem;
+	border-radius: 5px;
+	padding: 1rem;
+	background-color: var(--bg-color-dark);
+	color: var(--text-color-dark);
+}
