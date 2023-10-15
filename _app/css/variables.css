@@ -1,4 +1,41 @@
 :root {
-	--background-color: rgb(6, 11, 26);
-	--border-color: rgb(255, 255, 255, 0.1);
+	/* Font-sizes */
+	--font-size--1x: 8px;
+	--font-size--2x: 16px;
+	--font-size--3x: 24px;
+	--font-size--4x: 32px;
+	--font-size--5x: 40px;
+	--font-size--6x: 48px;
+	--font-size--7x: 56px;
+	--font-size--8x: 64px;
+	--font-size--9x: 72px;
+	--font-size--10x: 80px;
+
+	/* Font Family */
+	--font-family-serif: 'Oxygen', sans-serif;
+	--font-family-mono: 'Oxygen Mono', monospace;
+
+	/* Padding */
+	--section-padding-desktop: 2rem 4rem;
+	--section-padding-mobile: 1rem 2rem;
+
+	/* Colors */
+	/* Light Mode */
+	--text-color-light: #130E01;
+	--bg-color-light: #FFFAEB;
+	--font-size-desktop: 16px;
+	--font-size-mobile: 14px;
+
+	/* Dark Mode */
+	--text-color-dark: #FFFAEB;
+	--bg-color-dark: #130E01;
+
+	/* Primary Color */
+	--primary-color: #FF8400;
+
+	/* Secondary Color */
+	--secondary-color: #FFF5D6;
+
+	/* Accent Color */
+	--accent-color: #CF4307;
 }
