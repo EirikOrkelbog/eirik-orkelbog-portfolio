@@ -1,14 +1,48 @@
 .nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--bg-color-dark);
 	padding: 1rem;
+	margin: 1rem;
+	border-radius: 5px;
 }
 
 .nav__list {
 	display: flex;
 	align-items: center;
-	list-style-type: none;
 	gap: 1rem;
-	border-radius: 5px;
-	padding: 1rem;
-	background-color: var(--bg-color-dark);
+}
+
+.nav a {
 	color: var(--text-color-dark);
+}
+
+.nav__connect li:last-child {
+	background-color: rgba(255, 255, 255, 0.073);
+	padding: .2rem .5rem;
+	border-radius: 5px;
+}
+
+#logo {
+	display: flex;
+	margin-bottom: -4px;
+}
+
+#linkedin {
+	display: flex;
+	background-image: url(/_app/assets/icons/linkedin-light.svg);
+	background-position: center;
+	background-size: cover;
+	height: 20px;
+	width: 20px;
+}
+
+#github {
+	display: flex;
+	background-image: url(/_app/assets/icons/github-light.svg);
+	background-position: center;
+	background-size: cover;
+	height: 22px;
+	width: 22px;
 }
