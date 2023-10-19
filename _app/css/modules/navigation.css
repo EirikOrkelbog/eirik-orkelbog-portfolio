@@ -1,3 +1,39 @@
+#logo {
+	display: flex;
+	margin-bottom: -4px;
+	padding: .5rem 0;
+}
+
+#linkedin {
+	height: 20px;
+	width: 20px;
+	margin-top: 1px;
+}
+
+#linkedin img {
+	height: 100%;
+}
+
+#github {
+	height: 22px;
+	width: 22px;
+}
+
+#github img {
+	height: 100%;
+}
+
+#resume {
+	padding: 1rem 0;
+	width: 100%;
+	text-align: center;
+	order: 2;
+}
+
+#resume:hover {
+	background-color: var(--primary-color);
+}
+
 .nav {
 	display: flex;
 	align-items: center;
@@ -9,8 +45,8 @@
 	border-radius: 5px;
 }
 
-#resume {
-	order: 2;
+.nav a {
+	color: var(--text-color-dark);
 }
 
 .nav__container {
@@ -20,10 +56,10 @@
 	position: absolute;
 	top: 100%;
 	left: 0;
-	background-color: red;
+	background-color: var(--accent-color);
 	border-radius: 5px;
 	width: 100%;
-	gap: 1rem;
+	padding-bottom: 1rem;
 }
 
 .nav__list {
@@ -31,20 +67,34 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	gap: 1rem;
 	width: 100%;
 	order: 1;
 }
 
-.nav__social {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	order: 3;
-}
-
 .nav__list li {
 	width: 100%;
+}
+
+.nav__list a {
+	display: block;
+	width: 100%;
+	padding: 1rem 0;
+}
+
+.nav__list a:hover {
+	background-color: var(--primary-color);
+}
+
+.nav__list a:first-child:hover {
+	border-radius: 5px;
+}
+
+.nav__social {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	order: 3;
+	padding-top: 1rem;
 }
 
 .nav__menu-button {
@@ -55,59 +105,46 @@
 	cursor: pointer;
 }
 
-.nav a {
-	color: var(--text-color-dark);
-}
-
-.nav__connect li:last-child {
-	background-color: rgba(255, 255, 255, 0.073);
-	/* padding: .2rem .5rem; */
-	border-radius: 5px;
-}
-
-#logo {
-	display: flex;
-	margin-bottom: -4px;
-	padding: .4rem 0;
-}
-
-#linkedin {
-	display: flex;
-	background-image: url(/_app/assets/icons/linkedin-light.svg);
-	background-position: center;
-	background-size: cover;
-	height: 20px;
-	width: 20px;
-}
-
-#github {
-	display: flex;
-	background-image: url(/_app/assets/icons/github-light.svg);
-	background-position: center;
-	background-size: cover;
-	height: 22px;
-	width: 22px;
-}
-
 @media screen and (min-width: 576px) {
+	#resume {
+		padding: 0;
+		order: 3;
+		color: var(--primary-color);
+	}
+	
+	#resume:hover {
+		background-color: transparent;
+		color: var(--text-color-dark);
+	}
+
 	.nav__container {
 		display: flex !important;
 		flex-direction: row;
 		position: relative;
 		width: auto;
 		background-color: transparent;
+		padding-bottom: 0;
+		gap: 2rem;
 	}
 
 	.nav__list {
 		flex-direction: row;
+		gap: 1rem;
+	}
+
+	.nav__list a {
+		padding: 0;
+	}
+
+	.nav__list a:hover {
+		background-color: transparent;
+		color: var(--primary-color);
 	}
 
 	.nav__social {
+		padding: 0;
+		gap: 1rem;
 		order: 2;
-	}
-
-	#resume {
-		order: 3;
 	}
 
 	.nav__menu-button {
