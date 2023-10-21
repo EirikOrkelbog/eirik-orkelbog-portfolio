@@ -18,6 +18,7 @@
 	/* Padding */
 	--section-padding-desktop: 2rem 4rem;
 	--section-padding-mobile: 1rem 2rem;
+	--cta-padding: .3rem 1rem;
 
 	/* Border Radius */
 	--border-radius: 5px;
