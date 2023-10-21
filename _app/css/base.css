@@ -12,6 +12,12 @@ a {
 	text-decoration: none;
 }
 
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 12rem;
+}
+
 /* Dark Mode */
 .dark-mode {
 	color: var(--text-color-dark);
