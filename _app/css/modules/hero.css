@@ -1,13 +1,18 @@
+.hero__section {
+	padding: 1rem;
+	text-align: center;
+}
+
 .container {
 	display: flex;
 	flex-direction: column;
-	align-items: start;
-	padding: 1.5rem;
+	align-items: center;
 }
 
 .hero__intro {
 	font-size: var(--font-size--1x);
 	font-family: var(--font-family-mono);
+	margin-bottom: 1rem;
 }
 
 .hero__heading {
@@ -18,6 +23,7 @@
 .paragraph {
 	font-size: var(--font-size--2x);
 	margin: 1rem 0 2rem 0;
+	max-width: 600px;
 }
 
 .cta__button {
@@ -33,3 +39,23 @@
 /* .cta__button:hover {
 	transform: scale(1.05);
 } */
+
+@media screen and (min-width: 576px) {
+	.hero__intro {
+		font-size: var(--font-size--2x);
+	}
+	
+	.hero__heading {
+		font-size: var(--font-size--8x);
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.hero__section {
+		padding: 4rem;
+	}
+
+	.hero__heading {
+		font-size: var(--font-size--10x);
+	}
+}
