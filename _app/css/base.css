@@ -1,4 +1,6 @@
-body {
+.body {
+	max-width: 1920px;
+	margin: auto;
 	color: var(--text-color-light);
 	background-color: var(--bg-color-light);
 }
@@ -16,6 +18,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	gap: 12rem;
+	margin-top: 6rem;
 }
 
 /* Dark Mode */
