@@ -26,12 +26,12 @@
 	/* Colors */
 	/* Light Mode */
 	--text-color-light: #130E01;
-	--bg-color-light: #FFFAEB;
+	--bg-color-light: #FCFAF4;
 	--font-size-desktop: 16px;
 	--font-size-mobile: 14px;
 
 	/* Dark Mode */
-	--text-color-dark: #FFFAEB;
+	--text-color-dark: #FCFAF4;
 	--bg-color-dark: #130E01;
 
 	/* Primary Color */
