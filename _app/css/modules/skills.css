@@ -1,0 +1,11 @@
+.skills__section {
+	padding: 1rem;
+}
+
+.skills__container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-top: 1rem;
+}
