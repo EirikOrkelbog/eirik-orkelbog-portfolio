@@ -14,6 +14,11 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+	font-size: var(--font-size--4x);
+	text-transform: capitalize;
+}
+
 .main {
 	display: flex;
 	flex-direction: column;
