@@ -12,13 +12,14 @@ export default function projects() {
 			for (const res of result) {
 				const project = document.createElement('div');
 				const projectImage = document.createElement('img');
-				const projectTitle = document.createElement('h4');
+				const projectTitle = document.createElement('h3');
 				const projectDescription = document.createElement('p');
 				const projectUrl = document.createElement('a');
 				projectImage.setAttribute('src', res.imageUrl);
 				projectTitle.textContent = res.title;
 				projectDescription.textContent = res.description;
 				projectUrl.setAttribute('href', res.url);
+				projectUrl.setAttribute('class', 'cta__button');
 				projectUrl.textContent = 'See live project';
 				project.appendChild(projectImage);
 				project.appendChild(projectTitle);
