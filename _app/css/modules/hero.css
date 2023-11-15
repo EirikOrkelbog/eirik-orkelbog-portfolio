@@ -26,20 +26,6 @@
 	max-width: 600px;
 }
 
-.cta__button {
-	font-size: var(--font-size--2x);
-	background-color: var(--primary-color);
-	border: none;
-	border-radius: var(--border-radius);
-	padding: var(--cta-padding);
-	cursor: pointer;
-	box-shadow: 2.0px 4.0px 4.0px hsl(0deg 0% 0% / 0.44);
-}
-
-/* .cta__button:hover {
-	transform: scale(1.05);
-} */
-
 @media screen and (min-width: 576px) {
 	.hero__intro {
 		font-size: var(--font-size--2x);
