@@ -1,0 +1,21 @@
+.footer {
+	margin: 12rem 0 2rem 0;
+	padding: 1rem;
+}
+
+.footer__paragraph {
+	text-align: center;
+	margin: 1rem 0;
+	font-family: var(--font-family-mono);
+}
+
+.footer__icons {
+	display: flex;
+	gap: 2rem;
+}
+
+.footer__copyright {
+	margin-top: 2rem;
+	font-size: var(--font-size--1x);
+	font-family: var(--font-family-mono);
+}
