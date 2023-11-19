@@ -1,7 +1,7 @@
-.skills__container {
+.technologies__container {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
 	gap: 2rem;
-	margin-top: 1rem;
+	margin-top: 2rem;
 }
