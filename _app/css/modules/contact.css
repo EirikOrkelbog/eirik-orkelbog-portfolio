@@ -12,3 +12,7 @@ form div {
 input {
 	padding: .5rem;
 }
+
+label {
+	font-weight: 600;
+}
