@@ -2,12 +2,6 @@
 	text-align: center;
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 .hero__intro {
 	font-size: var(--font-size--1x);
 	font-family: var(--font-family-mono);
@@ -17,11 +11,6 @@
 .hero__heading {
 	font-size: var(--font-size--5x);
 	line-height: 1;
-}
-
-.paragraph {
-	margin: 1rem 0 2rem 0;
-	max-width: 600px;
 }
 
 @media screen and (min-width: 576px) {
