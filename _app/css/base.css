@@ -16,6 +16,7 @@ a {
 
 p {
 	font-size: var(--font-size--2x);
+	margin: 1rem 0 2rem 0;
 }
 
 h2 {
@@ -35,10 +36,16 @@ h3 {
 	padding: 1rem;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .line {
 	width: 100%;
 	height: 1px;
-	background-color: black;
+	background-color: var(--bg-color-dark);
 	margin-top: 2rem;
 }
 
@@ -47,7 +54,7 @@ h3 {
 	font-size: var(--font-size--2x);
 	background-color: var(--primary-color);
 	border: none;
-	color: black;
+	color: var(--bg-color-dark);
 	border-radius: var(--border-radius);
 	padding: var(--cta-padding);
 	cursor: pointer;
