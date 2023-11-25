@@ -16,7 +16,9 @@ a {
 
 p {
 	font-size: var(--font-size--2x);
+	line-height: 1.5rem;
 	margin: 1rem 0 2rem 0;
+	max-width: 500px;
 }
 
 h2 {
