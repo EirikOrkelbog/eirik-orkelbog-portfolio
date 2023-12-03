@@ -14,9 +14,9 @@ export default {
 			type: 'image'
 		},
 		{
-			title: 'Description',
-			name: 'description',
-			type: 'text'
+			title: 'Technologies Used',
+			name: 'technologies',
+			type: 'string'
 		},
 		{
 			title: 'URL',
