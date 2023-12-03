@@ -1,7 +1,12 @@
+.contact__section {
+	margin: 0 auto;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+	max-width: 500px;
 }
 
 form div {
