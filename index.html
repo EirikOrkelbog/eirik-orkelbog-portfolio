@@ -17,9 +17,9 @@
 			</a>
 			<div class="nav__container">
 				<ul class="nav__list">
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 				<div class="nav__social">
 					<a href="https://www.linkedin.com/in/eirik-orkelbog/" id="linkedin">
@@ -31,9 +31,9 @@
 				</div>
 				<a href="#" id="resume">Resume</a>
 			</div>
-			<button class="nav__menu-button">
+			<a class="nav__menu-button">
 				<span><img src="/_app/assets/icons/menu-light.svg" alt=""></span>
-			</button>
+			</a>
 		</nav>
 	</header>
 
@@ -43,10 +43,10 @@
 				<span class="hero__intro">Hi, my name is</span>
 				<h1 class="hero__heading">Eirik Orkelbog</h1>
 				<p>I like learning new things and creating cool stuff with code!</p>
-				<button class="cta__button">See Projects</button>
+				<a class="cta__button" href="#projects">See Projects</a>
 			</div>
 		</section>
-		<section class="about__section">
+		<section class="about__section" id="about">
 			<div class="image__container">
 				<img src="/_app/assets/images/sketch-of-a-man-coding.png" alt="sketch of a man coding" class="about__image">
 			</div>
@@ -56,7 +56,7 @@
 					Bergen, Norway. I love writing code that conforms to and exceeds established "best practices" of
 					design and accessibility standards. I love to learn and improve my skills while building cool projects.
 				</p>
-				<button class="cta__button">Contact</button>
+				<a class="cta__button" href="#contact">Contact</a>
 			</div>
 		</section>
 		<section class="technologies__section">
@@ -76,10 +76,10 @@
 				</ul>
 			</div>
 		</section>
-		<section class="projects__section">
+		<section class="projects__section" id="projects">
 			<div class="projects__container"></div>
 		</section>
-		<section class="contact__section">
+		<section class="contact__section" id="contact">
 			<h2>Contact</h2>
 			<p>Like what you've seen? Send me a message. Let's connect and talk!</p>
 			<form action="">
@@ -105,8 +105,12 @@
 			<h3>Eirik Orkelbog</h3>
 			<p class="footer__paragraph">Thank you for looking through my portfolio. Let's connect!</p>
 			<div class="footer__icons">
-				<img src="/_app/assets/icons/github-dark.svg" alt="">
-				<img src="/_app/assets/icons/linkedin-dark.svg" alt="">
+				<a href="https://github.com/EirikOrkelbog">
+					<img src="/_app/assets/icons/github-dark.svg" alt="">
+				</a>
+				<a href="">
+					<img src="/_app/assets/icons/linkedin-dark.svg" alt="">
+				</a>
 			</div>
 			<div class="line"></div>
 			<span class="footer__copyright">©2023 Eirik Orkelbog</span>
