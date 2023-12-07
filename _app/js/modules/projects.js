@@ -3,7 +3,7 @@ import { clientId } from '../env.js';
 export default function projects() {
 	const PROJECT_ID = clientId;
 	const DATASET = "production";
-	const QUERY = encodeURIComponent('*[_type == "projects"]{url, title, _id, technologies, "imageUrl": image.asset->url}');
+	const QUERY = '*[_type == "projects"]{url, title, _id, technologies, "imageUrl": image.asset->url}';
 	const URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
 
 	const projectsContainer = document.querySelector('.projects__container');
@@ -29,5 +29,7 @@ export default function projects() {
 				project.appendChild(projectUrl);
 				projectsContainer.appendChild(project);
 			}
-		})
+		}).catch(error => {
+			console.error('Error fetching data:', error);
+		});
 }
