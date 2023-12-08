@@ -24,15 +24,8 @@
 	--border-radius: 5px;
 
 	/* Colors */
-	/* Light Mode */
-	--text-color-light: #130E01;
-	--bg-color-light: #FCFAF4;
-	--font-size-desktop: 16px;
-	--font-size-mobile: 14px;
-
-	/* Dark Mode */
-	--text-color-dark: #FCFAF4;
-	--bg-color-dark: #130E01;
+	--text-color: #130E01;
+	--bg-color: #FCFAF4;
 
 	/* Primary Color */
 	--primary-color: #FF8400;
