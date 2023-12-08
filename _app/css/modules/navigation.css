@@ -7,7 +7,7 @@
 #linkedin {
 	height: 20px;
 	width: 20px;
-	margin-top: 1px;
+	margin-top: 1.5px;
 }
 
 #linkedin img {
@@ -34,19 +34,28 @@
 	background-color: var(--primary-color);
 }
 
+#darkmode-icon {
+	height: 20px;
+	width: 20px;
+	order: 3;
+	margin-top: 1.5px;
+	cursor: pointer;
+}
+
 .nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	position: relative;
-	background-color: var(--bg-color-dark);
+	background-color: var(--text-color);
 	padding: 1rem;
 	margin: 1rem;
 	border-radius: 5px;
 }
 
-.nav a {
-	color: var(--text-color-dark);
+.nav span {
+	font-family: var(--font-family-mono);
+	color: var(--bg-color);
 }
 
 .nav__container {
@@ -54,9 +63,9 @@
 	flex-direction: column;
 	align-items: center;
 	position: absolute;
-	top: 100%;
+	top: 110%;
 	left: 0;
-	background-color: var(--accent-color);
+	background-color: var(--text-color);
 	border-radius: 5px;
 	width: 100%;
 	padding-bottom: 1rem;
@@ -114,7 +123,7 @@
 	
 	#resume:hover {
 		background-color: transparent;
-		color: var(--text-color-dark);
+		color: var(--bg-color);
 	}
 
 	.nav__container {
@@ -128,6 +137,7 @@
 	}
 
 	.nav__list {
+		/* display: none; */
 		flex-direction: row;
 		gap: 1rem;
 	}
