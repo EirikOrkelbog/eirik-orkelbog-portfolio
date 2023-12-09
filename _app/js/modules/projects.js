@@ -21,6 +21,7 @@ export default function projects() {
 				projectTitle.textContent = res.title;
 				projectTechnologies.textContent = res.technologies;
 				projectUrl.setAttribute('href', res.url);
+				projectUrl.setAttribute('target', '_blank');
 				projectUrl.setAttribute('class', 'cta__button');
 				projectUrl.textContent = 'See live project';
 				project.appendChild(projectImage);
