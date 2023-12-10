@@ -1,7 +1,7 @@
-import { clientId } from '../env.js';
+// import { clientId } from '../env.js';
 
 export default function projects() {
-	const PROJECT_ID = clientId;
+	const PROJECT_ID = process.env.clientId;
 	const DATASET = "production";
 	const QUERY = '*[_type == "projects"]{url, title, _id, technologies, "imageUrl": image.asset->url}';
 	const URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
