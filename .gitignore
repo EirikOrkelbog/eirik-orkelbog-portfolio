@@ -12,7 +12,7 @@
 /.sanity
 
 # Local env files
-/_app/js/env.js
+.env
 
 # Logs
 /logs
