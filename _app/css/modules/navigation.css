@@ -137,7 +137,6 @@
 	}
 
 	.nav__list {
-		/* display: none; */
 		flex-direction: row;
 		gap: 1rem;
 	}
