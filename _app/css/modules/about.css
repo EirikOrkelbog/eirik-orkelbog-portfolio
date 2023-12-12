@@ -30,6 +30,7 @@
 	}
 	
 	.about__container {
+		align-items: flex-start;
 		order: 1;
 	}
 }
